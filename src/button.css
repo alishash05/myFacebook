@@ -1,0 +1,15 @@
+.button{
+	 background-color:blue; 
+	color: white;
+	padding: 15px 157px;
+	display: inline-block;
+	margin:10px 0px 0px 20px;
+}
+.input-style {
+    display: inline-block;
+    width: calc(55% -  5px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}

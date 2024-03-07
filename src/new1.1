@@ -1,0 +1,27 @@
+import react from 'react';
+import Header from './header.js';
+import Subpage from './subpage.js';
+import Inputpage from './inputpage.js';
+
+function Loginpage(){
+	
+	
+	const userValue =(id, val)=>{
+		console.log(val,"user", id);
+	}
+	
+	
+	const validate=()=>{
+		console.log("validate");
+	}
+	
+return(
+	<div style={{display:"inline-block",height:"500px",width:"1350px",background:"lightgrey"}}>
+		<Header/>
+		<Subpage/>
+<Inputpage getValue={userValue} type={"text"}id={"username"} validation={validate} />
+		<Inputpage getValue={userValue} type={"password"} id={"password"} />
+	</div>
+);
+}
+export default Loginpage
